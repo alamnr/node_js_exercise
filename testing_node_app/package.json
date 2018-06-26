@@ -1,0 +1,15 @@
+{
+  "name": "testing_node_app_with_node_tap",
+  "version": "1.0.0",
+  "devDependencies": {
+    "tap": "*",
+    "request": "*"
+  },
+  "description": "Testing node app with node tap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alam",
+  "license": "ISC"
+}
