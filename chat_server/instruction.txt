@@ -1,0 +1,8 @@
+Create a project directory named chat_server into which you’ll place the key and certii  cate i  les.
+First create the server key:
+$ openssl genrsa -out server_key.pem 1024
+Then create the certii  cate request:
+$ openssl req -new -key server_key.pem -out server_csr.pem
+To create a self-signed certii  cate with the CSR, you can do this:
+$ openssl x509 -req -in server_csr.pem -signkey server_key.pem -out server_cert.pem
+Now that you have the i  le server_cert.pem i  le sitting in the chat_server directory
